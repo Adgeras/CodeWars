@@ -1,31 +1,31 @@
-function getDrinkByProfession(param){
+function getDrinkByProfession(param) {
     let drink = '';
-    switch (param) {
-        case "jabrOni":
+    switch (param.toLowerCase()) {
+        case "jabroni":
             drink = "Patron Tequila"
             break;
-        case "scHOOl counselor":
+        case "school counselor":
             drink = "Anything with Alcohol"
             break;
-        case "prOgramMer":
+        case "programmer":
             drink = "Hipster Craft Beer"
             break;
-        case "bike ganG member":
+        case "bike gang member":
             drink = "Moonshine"
             break;
-        case "poLiTiCian":
+        case "politician":
             drink = "Your tax dollars";
             break;
         case "rapper":
-            drink = "Cristal";  
+            drink = "Cristal";
             break;
         case "pundit":
-            drink = "Beer";  
+            drink = "Beer";
             break;
-        case "Pug":
-            drink = "Beer";  
+        case "pug":
+            drink = "Beer";
             break;
-  
+
         default:
             drink = "Beer"
             break;
